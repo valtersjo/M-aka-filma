@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stils.css">
+    <title>Cars 3</title>
+    <style>
+        /* CSS stili formatētam tekstam */
+        .formatets-teksts {
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            color: #333;
+            line-height: 1.4;
+        }
+
+        /* CSS stili attēliem */
+        .attels {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- Mērķtiecīgi izmantots <div> elements -->
+    <div class="filmas-info">
+        <!-- Dažāda lieluma virsraksti -->
+        <h1 class="galvenais-virsraksts">Cars 3</h1>
+        <h2 class="apakšvirsraksts">Ātruma dēlis uz ceļiem</h2>
+        <h3 class="apakšvirsraksts mazs-virsraksts">Gala seanss 2023</h3>
+
+        <!-- Attēls ar filmas logotipu -->
+        <img class="attels" src="https://lumiere-a.akamaihd.net/v1/images/p_cars3_19643_3ab8aca1.jpeg" alt="Cars 3 Logotips" width="300">
+
+        <!-- Formatēts parasts teksts -->
+        <p class="formatets-teksts">
+            “Cars 3” ir trešā filma slavenajā "Cars" animācijas filmu sērijā, kurā galvenais varonis ir Blikss Makvīns.
+        </p>
+        <p class="formatets-teksts">
+            Šoreiz Blikss Makvīns saskaras ar jauniem pārbaudījumiem sacīkšu pasaulē, meklējot savu vietu starp jaunajiem sacīkšu automobiļiem.
+        </p>
+
+        <!-- Aizzīmēts saraksts -->
+        <ul>
+            <li class="formatets-teksts">Režisors: Brian Fee</li>
+            <li class="formatets-teksts">Studija: Pixar Animation Studios</li>
+            <li class="formatets-teksts">Izdošanas gads: 2017</li>
+        </ul>
+
+        <!-- Numurēts saraksts -->
+        <ol>
+            <li class="formatets-teksts">Galvenais varonis: Blikss Makvīns</li>
+            <li class="formatets-teksts">Galvenā sievrole: Kruz Remīrs</li>
+            <li class="formatets-teksts">Biedrs un draugs: Materijs</li>
+        </ol>
+
+        <!-- HTML <input> elementa veidi -->
+        <div class="filmu-darbibas">
+            <!-- Vienvienuma izvēles rūtiņa -->
+            <input type="checkbox" id="apraksts" name="apraksts" value="Apraksts">
+            <label for="apraksts">Paraksts</label>
+
+            <!-- Teksta ievades lauks -->
+            <input type="text" id="vards" name="vards" placeholder="Ievadiet jūsu vārdu">
+
+            <!-- Iezīmējuma izvēles rūtiņas -->
+            <input type="radio" id="skatities-tagad" name="skatities" value="Skatīties tagad">
+            <label for="skatities-tagad">Skatīties tagad</label>
+
+            <input type="radio" id="pirkt-bileti" name="skatities" value="Pirkt biļeti">
+            <label for="pirkt-bileti">Pirkt biļeti</label>
+
+            <!-- Ievades lauks datuma izvēlei -->
+            <input type="date" id="izlaiduma-datums" name="izlaiduma-datums">
+
+            <!-- Ievades lauks paroles ievadei -->
+            <input type="password" id="parole" name="parole" placeholder="Ievadiet paroli">
+        </div>
+    </div>
+</body>
+</html>
